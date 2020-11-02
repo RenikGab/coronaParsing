@@ -1,4 +1,5 @@
 /*
+// Download pages
 let globalTunnel = require('global-tunnel-ng');
 globalTunnel.initialize({
   host: 'proxy.fc.chromatec.ru',
@@ -9,7 +10,7 @@ let request = require('request');
 let sprintf = require('sprintf-js').sprintf
 let fs = require('fs')
 
-let date = new Date("2020-10-21")
+let date = new Date("2020-10-24")
 let endDate = new Date()
 let today = new Date()
 let URL_start = 'http://mari-el.gov.ru/minzdrav/Pages/';
@@ -27,6 +28,7 @@ for ( ; date < endDate; date.setDate(date.getDate() + 1)) {
 }*/
 
 /*
+// Convert to text
 let fs = require('fs')
 let path = require('path')
 let pagesDir = "pages/"
@@ -52,7 +54,7 @@ for(let page of pages) {
 }*/
 
 
-
+// Parse data
 let dataArray = []
 
 let arrStringNames = [["стационарах республики"],
@@ -175,13 +177,14 @@ for(let txt of texts) {
 }
 
 //console.log(dataArray)
-fs.writeFileSync("output/data.js", "let dataArray = ")
-fs.appendFileSync("output/data.js", JSON.stringify(dataArray, 1, 1))
+fs.writeFileSync("docs/data.js", "let dataArray = ")
+fs.appendFileSync("docs/data.js", JSON.stringify(dataArray, 1, 1))
 
 /*
-fs.writeFileSync("output/data.txt", "date\ttotal\tpnevmo\tcorona\thard\tmiddle\tO2\tIVL\tplus\tminus\n")
+let fileName = "docs/data.txt"
+fs.writeFileSyncfileName, "date\ttotal\tpnevmo\tcorona\thard\tmiddle\tO2\tIVL\tplus\tminus\n")
 for (data of dataArray) {
-  fs.appendFileSync("output/data.txt", data.date + "\t")
+  fs.appendFileSync(fileName, data.date + "\t")
   if (data.total == undefined)
     data.total = ""
   if (data.pnevmo == undefined)
@@ -201,15 +204,15 @@ for (data of dataArray) {
   if (data.minus == undefined)
     data.minus = ""
 
-  fs.appendFileSync("output/data.txt", data.total + "\t")
-  fs.appendFileSync("output/data.txt", data.pnevmo + "\t")
-  fs.appendFileSync("output/data.txt", data.corona + "\t")
-  fs.appendFileSync("output/data.txt", data.hard + "\t")
-  fs.appendFileSync("output/data.txt", data.middle + "\t")
-  fs.appendFileSync("output/data.txt", data.O2 + "\t")
-  fs.appendFileSync("output/data.txt", data.IVL + "\t")
-  fs.appendFileSync("output/data.txt", data.plus + "\t")      
-  fs.appendFileSync("output/data.txt", data.minus + "\t")        
-  fs.appendFileSync("output/data.txt", "\n")
+  fs.appendFileSync(fileName, data.total + "\t")
+  fs.appendFileSync(fileName, data.pnevmo + "\t")
+  fs.appendFileSync(fileName, data.corona + "\t")
+  fs.appendFileSync(fileName, data.hard + "\t")
+  fs.appendFileSync(fileName, data.middle + "\t")
+  fs.appendFileSync(fileName, data.O2 + "\t")
+  fs.appendFileSync(fileName, data.IVL + "\t")
+  fs.appendFileSync(fileName, data.plus + "\t")      
+  fs.appendFileSync(fileName, data.minus + "\t")        
+  fs.appendFileSync(fileName, "\n")
 }
 */
