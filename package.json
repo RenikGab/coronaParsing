@@ -12,6 +12,7 @@
     "chartjs-plugin-zoom": "^0.7.7",
     "cheerio": "^1.0.0-rc.3",
     "global-tunnel-ng": "^2.7.1",
+    "moment": "^2.29.1",
     "request": "^2.88.2",
     "sprintf-js": "^1.1.2",
     "util": "^0.12.3"
