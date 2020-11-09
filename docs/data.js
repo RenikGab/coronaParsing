@@ -2360,5 +2360,17 @@ let dataArray = [
   "IVL": "30",
   "minus": "88",
   "plus": "77"
+ },
+ {
+  "date": "201109",
+  "total": "1109",
+  "pnevmo": "1095",
+  "corona": "327",
+  "hard": "198",
+  "middle": "911",
+  "O2": "529",
+  "IVL": "27",
+  "minus": "32",
+  "plus": "92"
  }
 ]
