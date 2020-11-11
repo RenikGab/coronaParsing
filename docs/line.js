@@ -1,5 +1,15 @@
 $(function(){
 
+  let dataArray = []
+
+    $.getJSON('data.json', function(data) {
+                $.each(data, function(key, val) {
+                  console.log(key + "" + val + "")
+                });
+    });
+
+
+
   //get the line chart canvas
   var ctx = $("#line-chartcanvas");
   var ctx2 = $("#line-chartcanvas2");

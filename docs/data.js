@@ -1,4 +1,4 @@
-let dataArray = [
+{
  {
   "date": "200413",
   "total": "19",
@@ -2383,5 +2383,16 @@ let dataArray = [
   "IVL": "30",
   "minus": "154",
   "plus": "128"
+ },
+ {
+  "date": "201111",
+  "total": "1117",
+  "pnevmo": "1102",
+  "hard": "208",
+  "middle": "909",
+  "O2": "466",
+  "IVL": "30",
+  "minus": "95",
+  "plus": "129"
  }
-]
+}
