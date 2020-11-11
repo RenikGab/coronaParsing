@@ -3,8 +3,10 @@ $(function(){
   let dataArray = []
 
     $.getJSON('data.json', function(data) {
+                dataArray.length = 0
                 $.each(data, function(key, val) {
-                  console.log(key + "" + val + "")
+                  //console.log(key + "" + val + "")
+                  dataArray.push(val)
                 });
     });
 
