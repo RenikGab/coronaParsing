@@ -2,21 +2,27 @@ $(function(){
 
   let dataArray = []
 
-    $.getJSON('data.json', function(data) {
-                dataArray.length = 0
-                $.each(data, function(key, val) {
-                  //console.log(key + "" + val + "")
-                  dataArray.push(val)
-                });
-    });
+  $.ajaxSetup({
+    async: false
+  }); 
 
+  $.getJSON('data.json', function(data) {
+              dataArray.length = 0
+              $.each(data, function(key, val) {
+                //console.log(key + "" + val + "")
+                dataArray.push(val)
+              });
+  });
 
-
+  $.ajaxSetup({
+    async: true
+  });
+  
   //get the line chart canvas
   var ctx = $("#line-chartcanvas");
   var ctx2 = $("#line-chartcanvas2");
-
-  console.log(dataArray)
+ 
+  //console.log(dataArray)
 
   //line chart data
   var data = {
