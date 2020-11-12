@@ -31,7 +31,7 @@ function DownloadAllPages() {
     request(URL, function (err, res, body) {
       if (err) throw err;
       //console.log(body);
-      fs.writeFileSync("pages/" + stringDate + ".html", body)
+      fs.writeFileSync("pages/12/" + stringDate + ".html", body)
       console.log(stringDate + " " + res.statusCode);
     });  
   }
@@ -39,7 +39,7 @@ function DownloadAllPages() {
 
 // Convert to text
 /*function ConvertAllPagesToText() {
-  let pagesDir = "pages/"
+  let pagesDir = "pages/12/"
   let textDir = "text/"
   let pages = fs.readdirSync(pagesDir);
   for(let page of pages) {
@@ -90,7 +90,7 @@ function DownloadPage(startDate) {
       if (err) throw err;
       //console.log(body);      
       let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
-      fs.writeFileSync("pages/" + stringDate + ".html", body)
+      fs.writeFileSync("pages/12/" + stringDate + ".html", body)
     });  
   });
 }
@@ -114,8 +114,8 @@ function GetLastSavedFileDate(Dir) {
 
 // Convert to text
 function ConvertPagesToTxt(startDate) {
-  let pagesDir = "pages/"
-  let textDir = "text/"
+  let pagesDir = "pages/12/"
+  let textDir = "text/12/"
   let pages = fs.readdirSync(pagesDir);
   let texts = fs.readdirSync(textDir);
   for(let page of pages) {
@@ -142,11 +142,11 @@ function ConvertPagesToTxt(startDate) {
 //date.toDateString('ru', { month: 'long' })
 //console.log(date.toLocaleDateString('ru', { month: 'long' }))
 
-let startDate = GetLastSavedFileDate("pages/")
+let startDate = GetLastSavedFileDate("pages/12/")
 console.log("startDate pages " + startDate)
 DownloadPage(startDate)
 
-//startDate = GetLastSavedFileDate("text/")
+//startDate = GetLastSavedFileDate("text/12/")
 //console.log("startDate text " + startDate)
 ConvertPagesToTxt(startDate)
 

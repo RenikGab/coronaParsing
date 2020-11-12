@@ -69,7 +69,7 @@ function parsePlusMinus(strings, newObject) {
 
 exports.Parse = function(dataArray) {
 
-  let textDir = "text/"
+  let textDir = "text/12/"
   let texts = fs.readdirSync(textDir);
   for(let txt of texts) {
     let file = textDir + txt
@@ -122,4 +122,5 @@ exports.Parse = function(dataArray) {
   //console.log(dataArray)
   fs.writeFileSync("docs/data.js", "let dataArray = ")
   fs.appendFileSync("docs/data.js", JSON.stringify(dataArray, 1, 1))
+  fs.writeFileSync("docs/data.json", JSON.stringify(dataArray, 1, 1))
 }
