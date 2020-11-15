@@ -120,7 +120,7 @@ exports.Parse = function(dataArray) {
   }
 
   //console.log(dataArray)
-  fs.writeFileSync("docs/data.js", "let dataArray = ")
-  fs.appendFileSync("docs/data.js", JSON.stringify(dataArray, 1, 1))
-  fs.writeFileSync("docs/data.json", JSON.stringify(dataArray, 1, 1))
+  //fs.writeFileSync("docs/data.js", "let dataArray = ")
+  //fs.appendFileSync("docs/data.js", JSON.stringify(dataArray, 1, 1))
+  fs.writeFileSync("docs/data/12/data.json", JSON.stringify(dataArray, 1, 1))
 }
