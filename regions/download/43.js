@@ -4,7 +4,7 @@ let fs = require('fs')
 let path = require('path')
 let moment = require('moment')
 
-let proxy = require('../proxy')
+let proxy = require('../../proxy')
 let cheerio = require('cheerio');
 
 //<div id="news-headdate">13 ноября 2020 г.</div>
