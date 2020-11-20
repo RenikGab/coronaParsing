@@ -14,7 +14,7 @@ reg12.DownloadPage(startDate)
 //console.log("startDate text " + startDate)
 reg12.ConvertPagesToTxt(startDate)
 
-/*
+
 // Parse data
 let dataArray = []
 
@@ -22,7 +22,7 @@ let parse = require('./parse')
 parse.Parse(dataArray)
 
 let text = require('./text')
-text.ConvertToTxtFile(dataArray)*/
+text.ConvertToTxtFile(dataArray)
 
 //down43.DownloadAllPages()
 parse43.ParseAllPages()

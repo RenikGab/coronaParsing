@@ -204,11 +204,11 @@
  },
  {
   "date": "200620",
-  "total": "641"
+  "corona": "641"
  },
  {
   "date": "200621",
-  "total": "653"
+  "corona": "653"
  },
  {
   "date": "200622"
@@ -227,746 +227,746 @@
  },
  {
   "date": "200627",
-  "total": "511"
+  "corona": "511"
  },
  {
   "date": "200628",
-  "total": "515"
+  "corona": "515"
  },
  {
   "date": "200629"
  },
  {
   "date": "200630",
-  "total": "535"
+  "corona": "535"
  },
  {
   "date": "200701",
-  "total": "657"
+  "corona": "657"
  },
  {
   "date": "200702",
-  "total": "651"
+  "corona": "651"
  },
  {
   "date": "200703",
-  "total": "669"
+  "corona": "669"
  },
  {
   "date": "200704",
-  "total": "647",
+  "corona": "647",
   "hard": "15",
   "IVL": "4"
  },
  {
   "date": "200705",
-  "total": "647",
+  "corona": "647",
   "hard": "15",
   "IVL": "4"
  },
  {
   "date": "200706",
-  "total": "799"
+  "corona": "799"
  },
  {
   "date": "200707",
-  "total": "782",
+  "corona": "782",
   "hard": "21",
   "IVL": "7"
  },
  {
   "date": "200708",
-  "total": "818"
+  "corona": "818"
  },
  {
   "date": "200709",
-  "total": "829",
+  "corona": "829",
   "hard": "27",
   "IVL": "7"
  },
  {
   "date": "200710",
-  "total": "850",
+  "corona": "850",
   "hard": "26",
   "IVL": "19"
  },
  {
   "date": "200711",
-  "total": "888",
+  "corona": "888",
   "hard": "27",
   "IVL": "19"
  },
  {
   "date": "200712",
-  "total": "975",
+  "corona": "975",
   "hard": "26",
   "IVL": "6"
  },
  {
   "date": "200713",
-  "total": "1011",
+  "corona": "1011",
   "hard": "29",
   "IVL": "7"
  },
  {
   "date": "200714",
-  "total": "1034",
+  "corona": "1034",
   "hard": "28",
   "IVL": "7"
  },
  {
   "date": "200715",
-  "total": "1058",
+  "corona": "1058",
   "hard": "30",
   "IVL": "8"
  },
  {
   "date": "200716",
-  "total": "1072",
+  "corona": "1072",
   "hard": "27",
   "IVL": "19"
  },
  {
   "date": "200717",
-  "total": "1093",
+  "corona": "1093",
   "hard": "31",
   "IVL": "8"
  },
  {
   "date": "200718",
-  "total": "1072",
+  "corona": "1072",
   "hard": "31",
   "IVL": "8"
  },
  {
   "date": "200719",
-  "total": "1088",
+  "corona": "1088",
   "hard": "27",
   "IVL": "7"
  },
  {
   "date": "200720",
-  "total": "1118",
+  "corona": "1118",
   "hard": "29",
   "IVL": "9"
  },
  {
   "date": "200721",
-  "total": "1084",
+  "corona": "1084",
   "hard": "31",
   "IVL": "10"
  },
  {
   "date": "200722",
-  "total": "1084",
+  "corona": "1084",
   "hard": "24",
   "IVL": "19"
  },
  {
   "date": "200723",
-  "total": "1064",
+  "corona": "1064",
   "hard": "26",
   "IVL": "7"
  },
  {
   "date": "200724",
-  "total": "1044",
+  "corona": "1044",
   "hard": "30",
   "IVL": "10"
  },
  {
   "date": "200725",
-  "total": "1015",
+  "corona": "1015",
   "hard": "33",
   "IVL": "11"
  },
  {
   "date": "200726",
-  "total": "1044",
+  "corona": "1044",
   "hard": "28",
   "IVL": "11"
  },
  {
   "date": "200727",
-  "total": "1052",
+  "corona": "1052",
   "hard": "26",
   "IVL": "10"
  },
  {
   "date": "200728",
-  "total": "970",
+  "corona": "970",
   "hard": "28",
   "IVL": "11"
  },
  {
   "date": "200729",
-  "total": "960",
+  "corona": "960",
   "hard": "26",
   "IVL": "10"
  },
  {
   "date": "200730",
-  "total": "894",
+  "corona": "894",
   "hard": "29",
   "IVL": "10"
  },
  {
   "date": "200731",
-  "total": "881",
+  "corona": "881",
   "hard": "25",
   "IVL": "10"
  },
  {
   "date": "200801",
-  "total": "860",
+  "corona": "860",
   "hard": "25",
   "IVL": "8"
  },
  {
   "date": "200802",
-  "total": "880",
+  "corona": "880",
   "hard": "23",
   "IVL": "7"
  },
  {
   "date": "200803",
-  "total": "887",
+  "corona": "887",
   "hard": "23",
   "IVL": "7"
  },
  {
   "date": "200804",
-  "total": "910",
-  "corona": "827",
+  "corona": "910",
+  "pnevmo": "827",
   "hard": "25",
   "IVL": "9"
  },
  {
   "date": "200805",
-  "total": "842",
-  "corona": "770",
+  "corona": "842",
+  "pnevmo": "770",
   "hard": "26",
   "IVL": "8"
  },
  {
   "date": "200806",
-  "total": "796",
-  "corona": "700",
+  "corona": "796",
+  "pnevmo": "700",
   "hard": "27",
   "IVL": "8"
  },
  {
   "date": "200807",
-  "total": "793",
-  "corona": "648",
+  "corona": "793",
+  "pnevmo": "648",
   "hard": "23",
   "IVL": "6"
  },
  {
   "date": "200808",
-  "total": "766",
-  "corona": "593",
+  "corona": "766",
+  "pnevmo": "593",
   "hard": "23",
   "IVL": "7"
  },
  {
   "date": "200809",
-  "total": "822",
-  "corona": "599",
+  "corona": "822",
+  "pnevmo": "599",
   "hard": "22",
   "IVL": "6"
  },
  {
   "date": "200810",
-  "total": "829",
-  "corona": "579",
+  "corona": "829",
+  "pnevmo": "579",
   "hard": "22",
   "IVL": "7"
  },
  {
   "date": "200811",
-  "total": "793",
-  "corona": "548",
+  "corona": "793",
+  "pnevmo": "548",
   "hard": "20",
   "IVL": "8"
  },
  {
   "date": "200812",
-  "total": "772",
-  "corona": "520",
+  "corona": "772",
+  "pnevmo": "520",
   "hard": "17",
   "IVL": "6"
  },
  {
   "date": "200813",
-  "total": "759",
-  "corona": "500",
+  "corona": "759",
+  "pnevmo": "500",
   "hard": "17",
   "IVL": "8"
  },
  {
   "date": "200814",
-  "total": "756",
-  "corona": "509",
+  "corona": "756",
+  "pnevmo": "509",
   "hard": "18",
   "IVL": "6"
  },
  {
   "date": "200815",
-  "total": "714",
-  "corona": "439",
+  "corona": "714",
+  "pnevmo": "439",
   "hard": "19",
   "IVL": "5"
  },
  {
   "date": "200816",
-  "total": "771",
-  "corona": "472",
+  "corona": "771",
+  "pnevmo": "472",
   "hard": "18",
   "IVL": "5"
  },
  {
   "date": "200817",
-  "total": "813",
-  "corona": "495",
+  "corona": "813",
+  "pnevmo": "495",
   "hard": "18",
   "IVL": "4"
  },
  {
   "date": "200818",
-  "total": "798",
-  "corona": "475",
+  "corona": "798",
+  "pnevmo": "475",
   "hard": "20",
   "IVL": "3"
  },
  {
   "date": "200819",
-  "total": "772",
-  "corona": "457",
+  "corona": "772",
+  "pnevmo": "457",
   "hard": "20",
   "IVL": "4"
  },
  {
   "date": "200820",
-  "total": "768",
-  "corona": "462",
+  "corona": "768",
+  "pnevmo": "462",
   "hard": "18",
   "IVL": "3"
  },
  {
   "date": "200821",
-  "total": "791",
-  "corona": "467",
+  "corona": "791",
+  "pnevmo": "467",
   "hard": "22",
   "IVL": "5"
  },
  {
   "date": "200822",
-  "total": "843",
-  "corona": "507",
+  "corona": "843",
+  "pnevmo": "507",
   "hard": "23",
   "IVL": "5"
  },
  {
   "date": "200823",
-  "total": "922",
-  "corona": "546",
+  "corona": "922",
+  "pnevmo": "546",
   "hard": "24",
   "IVL": "5"
  },
  {
   "date": "200824",
-  "total": "973",
-  "corona": "585",
+  "corona": "973",
+  "pnevmo": "585",
   "hard": "27",
   "IVL": "5"
  },
  {
   "date": "200825",
-  "total": "981",
-  "corona": "599",
+  "corona": "981",
+  "pnevmo": "599",
   "hard": "29",
   "IVL": "6"
  },
  {
   "date": "200826",
-  "total": "973",
-  "corona": "621",
+  "corona": "973",
+  "pnevmo": "621",
   "hard": "26",
   "IVL": "6"
  },
  {
   "date": "200827",
-  "total": "1011",
-  "corona": "650",
+  "corona": "1011",
+  "pnevmo": "650",
   "hard": "29",
   "IVL": "8"
  },
  {
   "date": "200828",
-  "total": "1022",
-  "corona": "667",
+  "corona": "1022",
+  "pnevmo": "667",
   "hard": "28",
   "IVL": "8"
  },
  {
   "date": "200829",
-  "total": "1089",
+  "corona": "1089",
   "hard": "30",
   "IVL": "10"
  },
  {
   "date": "200831",
-  "total": "1275",
+  "corona": "1275",
   "hard": "27",
   "IVL": "10"
  },
  {
   "date": "200901",
-  "total": "1243",
+  "corona": "1243",
   "hard": "31",
   "IVL": "14"
  },
  {
   "date": "200903",
-  "total": "1254",
-  "corona": "1089",
+  "corona": "1254",
+  "pnevmo": "1089",
   "hard": "22",
   "IVL": "9"
  },
  {
   "date": "200904",
-  "total": "1251",
-  "corona": "1125",
+  "corona": "1251",
+  "pnevmo": "1125",
   "hard": "28",
   "IVL": "10"
  },
  {
   "date": "200905",
-  "total": "1319",
-  "corona": "1154",
+  "corona": "1319",
+  "pnevmo": "1154",
   "hard": "30",
   "IVL": "10"
  },
  {
   "date": "200906",
-  "total": "1354",
-  "corona": "1149",
+  "corona": "1354",
+  "pnevmo": "1149",
   "hard": "29",
   "IVL": "10"
  },
  {
   "date": "200907",
-  "total": "1389",
-  "corona": "1193",
+  "corona": "1389",
+  "pnevmo": "1193",
   "hard": "28",
   "IVL": "12"
  },
  {
   "date": "200908",
-  "total": "1343",
-  "corona": "1161",
+  "corona": "1343",
+  "pnevmo": "1161",
   "hard": "30",
   "IVL": "12"
  },
  {
   "date": "200909",
-  "total": "1285",
-  "corona": "1127",
+  "corona": "1285",
+  "pnevmo": "1127",
   "hard": "29",
   "IVL": "18"
  },
  {
   "date": "200910",
-  "total": "1311",
-  "corona": "1125",
+  "corona": "1311",
+  "pnevmo": "1125",
   "hard": "28",
   "IVL": "17"
  },
  {
   "date": "200911",
-  "total": "1352",
-  "corona": "1142",
+  "corona": "1352",
+  "pnevmo": "1142",
   "hard": "31",
   "IVL": "18"
  },
  {
   "date": "200912",
-  "total": "1333",
-  "corona": "1147",
+  "corona": "1333",
+  "pnevmo": "1147",
   "hard": "32",
   "IVL": "17"
  },
  {
   "date": "200913",
-  "total": "1430",
-  "corona": "1182",
+  "corona": "1430",
+  "pnevmo": "1182",
   "hard": "32",
   "IVL": "19"
  },
  {
   "date": "200914",
-  "total": "1493",
-  "corona": "1233",
+  "corona": "1493",
+  "pnevmo": "1233",
   "hard": "33",
   "IVL": "22"
  },
  {
   "date": "200915",
-  "total": "1421",
-  "corona": "1225",
+  "corona": "1421",
+  "pnevmo": "1225",
   "hard": "30",
   "IVL": "19"
  },
  {
   "date": "200916",
-  "total": "1401",
-  "corona": "1221",
+  "corona": "1401",
+  "pnevmo": "1221",
   "hard": "34",
   "IVL": "20"
  },
  {
   "date": "200917",
-  "total": "1323",
-  "corona": "1203",
+  "corona": "1323",
+  "pnevmo": "1203",
   "hard": "31",
   "IVL": "21"
  },
  {
   "date": "200918",
-  "total": "1357",
-  "corona": "1220",
+  "corona": "1357",
+  "pnevmo": "1220",
   "hard": "34",
   "IVL": "19"
  },
  {
   "date": "200919",
-  "total": "1355",
-  "corona": "1228",
+  "corona": "1355",
+  "pnevmo": "1228",
   "hard": "31",
   "IVL": "17"
  },
  {
   "date": "200920",
-  "total": "1457",
-  "corona": "1284",
+  "corona": "1457",
+  "pnevmo": "1284",
   "hard": "34",
   "IVL": "19"
  },
  {
   "date": "200921",
-  "total": "1555",
-  "corona": "1341",
+  "corona": "1555",
+  "pnevmo": "1341",
   "hard": "30",
   "IVL": "13"
  },
  {
   "date": "200922",
-  "total": "1501",
-  "corona": "1338",
+  "corona": "1501",
+  "pnevmo": "1338",
   "hard": "32",
   "IVL": "13"
  },
  {
   "date": "200923",
-  "total": "1514",
-  "corona": "1326",
+  "corona": "1514",
+  "pnevmo": "1326",
   "hard": "34",
   "IVL": "12"
  },
  {
   "date": "200924",
-  "total": "1570",
-  "corona": "1345",
+  "corona": "1570",
+  "pnevmo": "1345",
   "hard": "35",
   "IVL": "14"
  },
  {
   "date": "200925",
-  "total": "1587",
-  "corona": "1359",
+  "corona": "1587",
+  "pnevmo": "1359",
   "hard": "36",
   "IVL": "13"
  },
  {
   "date": "200926",
-  "total": "1588",
-  "corona": "1366",
+  "corona": "1588",
+  "pnevmo": "1366",
   "hard": "35",
   "IVL": "14"
  },
  {
   "date": "200927",
-  "total": "1713",
-  "corona": "1421",
+  "corona": "1713",
+  "pnevmo": "1421",
   "hard": "35",
   "IVL": "14"
  },
  {
   "date": "200928",
-  "total": "1795",
-  "corona": "1478",
+  "corona": "1795",
+  "pnevmo": "1478",
   "hard": "35",
   "IVL": "14"
  },
  {
   "date": "200929",
-  "total": "1727",
-  "corona": "1494",
+  "corona": "1727",
+  "pnevmo": "1494",
   "hard": "35",
   "IVL": "11"
  },
  {
   "date": "200930",
-  "total": "1761",
-  "corona": "1494",
+  "corona": "1761",
+  "pnevmo": "1494",
   "hard": "37",
   "IVL": "12"
  },
  {
   "date": "201001",
-  "total": "1780",
-  "corona": "1468",
+  "corona": "1780",
+  "pnevmo": "1468",
   "hard": "37",
   "IVL": "12"
  },
  {
   "date": "201002",
-  "total": "1835",
-  "corona": "1448",
+  "corona": "1835",
+  "pnevmo": "1448",
   "hard": "39",
   "IVL": "14"
  },
  {
   "date": "201003",
-  "total": "1869",
-  "corona": "1412",
+  "corona": "1869",
+  "pnevmo": "1412",
   "hard": "37",
   "IVL": "12"
  },
  {
   "date": "201004",
-  "total": "2042",
-  "corona": "1453",
+  "corona": "2042",
+  "pnevmo": "1453",
   "hard": "37",
   "IVL": "12"
  },
  {
   "date": "201005",
-  "total": "2103",
-  "corona": "1496",
+  "corona": "2103",
+  "pnevmo": "1496",
   "hard": "38",
   "IVL": "12"
  },
  {
   "date": "201006",
-  "total": "2084",
-  "corona": "1470",
+  "corona": "2084",
+  "pnevmo": "1470",
   "hard": "38",
   "IVL": "13"
  },
  {
   "date": "201007",
-  "total": "2130",
-  "corona": "1396",
+  "corona": "2130",
+  "pnevmo": "1396",
   "hard": "36",
   "IVL": "11"
  },
  {
   "date": "201008",
-  "total": "2205",
-  "corona": "1328",
+  "corona": "2205",
+  "pnevmo": "1328",
   "hard": "39",
   "IVL": "14"
  },
  {
   "date": "201009",
-  "total": "2317",
-  "corona": "1323",
+  "corona": "2317",
+  "pnevmo": "1323",
   "hard": "42",
   "IVL": "19"
  },
  {
   "date": "201010",
-  "total": "2395",
-  "corona": "1331",
+  "corona": "2395",
+  "pnevmo": "1331",
   "hard": "46",
   "IVL": "17"
  },
  {
   "date": "201011",
-  "total": "2489",
-  "corona": "1407",
+  "corona": "2489",
+  "pnevmo": "1407",
   "hard": "50",
   "IVL": "19"
  },
  {
   "date": "201012",
-  "total": "2612",
-  "corona": "1474",
+  "corona": "2612",
+  "pnevmo": "1474",
   "hard": "51",
   "IVL": "20"
  },
  {
   "date": "201013",
-  "total": "2709",
-  "corona": "2687",
+  "corona": "2709",
+  "pnevmo": "2687",
   "hard": "56",
   "IVL": "21"
  },
  {
   "date": "201014",
-  "total": "2697",
-  "corona": "2656",
+  "corona": "2697",
+  "pnevmo": "2656",
   "hard": "56",
   "IVL": "17"
  },
  {
   "date": "201015",
-  "total": "2737",
-  "corona": "2684",
+  "corona": "2737",
+  "pnevmo": "2684",
   "hard": "64",
   "IVL": "20"
  },
  {
   "date": "201016",
-  "total": "2746",
-  "corona": "2695",
+  "corona": "2746",
+  "pnevmo": "2695",
   "hard": "64",
   "IVL": "20"
  },
  {
   "date": "201017",
-  "total": "2731",
-  "corona": "2685",
+  "corona": "2731",
+  "pnevmo": "2685",
   "hard": "66",
   "IVL": "20"
  },
  {
   "date": "201018",
-  "total": "2876",
-  "corona": "2746",
+  "corona": "2876",
+  "pnevmo": "2746",
   "hard": "68",
   "IVL": "18"
  },
  {
   "date": "201019",
-  "total": "2915",
-  "corona": "2763",
+  "corona": "2915",
+  "pnevmo": "2763",
   "hard": "65",
   "IVL": "17"
  },
  {
   "date": "201020",
-  "total": "2928",
-  "corona": "2821",
+  "corona": "2928",
+  "pnevmo": "2821",
   "hard": "68",
   "IVL": "23"
  },
  {
   "date": "201021",
-  "total": "2942",
-  "corona": "2842",
+  "corona": "2942",
+  "pnevmo": "2842",
   "hard": "71",
   "IVL": "22"
  },

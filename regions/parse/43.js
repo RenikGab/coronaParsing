@@ -51,7 +51,7 @@ exports.ParseAllPages = function() {
           let info = new_str.replace(/(\d)(?= \d) /g, '$1').match(/\s\d+\s/g)
           //console.log(info)
           for(let ii = 0; (ii < 2) && (ii < info.length); ii++)
-            newObject[paramNames[ii]] = info[ii].trim();
+            newObject[paramNames[ii+1]] = info[ii].trim();
         }
 
         pos = strings[ii].indexOf(addStringName[0], 0)

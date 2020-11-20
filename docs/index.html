@@ -6,6 +6,22 @@
 </head>
 <body>
   <h1>Corona info</h1>
+  <select name="regions" id="regions">
+    <option value="12">12 Republic of Mari El</option>
+    <option value="43">43 Kirov Region</option>
+  </select>  
+  <div id="selection"></div>
+  <script>
+    /*let regions = document.getElementById("regions"); 
+    console.log(regions)
+    function changeOption(){         
+        var selection = document.getElementById("selection");
+        var selectedOption = regions.options[regions.selectedIndex];
+        selection.textContent = "Вы выбрали: " + selectedOption.text;
+    }     
+    regions.addEventListener("change", changeOption);*/
+  </script>
+
   <div class="chart-container">
     <canvas id="line-chartcanvas"></canvas>
   </div>
