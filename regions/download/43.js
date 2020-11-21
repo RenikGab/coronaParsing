@@ -30,7 +30,7 @@ function StringToDate(str){
 
 idents = ["Министерство здравоохранения Кировской области информирует", "По данным министерства здравоохранения Кировской области"]
 
-exports.DownloadAllPages = function() {
+exports.DownloadAllPages = function(end_page) {
   proxy.ProxyInit()
 
   //StringToDate("10 ноября 2020 г.")
@@ -49,7 +49,7 @@ exports.DownloadAllPages = function() {
   //<div class="entry" id="293287-2020.html" onclick='window.open("/news/docid/293287-2020.html", "_self");'>...
   //
   console.log("")
-  for (let ii = 1; ii <= 501; ii+=20)
+  for (let ii = 1; ii <= end_page; ii+=20)
   {
     let URL = URL_begin + URL_news;
     if (ii > 1)
@@ -109,4 +109,8 @@ exports.DownloadAllPages = function() {
       //console.log(res.body);
     });   
   } 
+}
+
+exports.DownloadNewPages = function() {
+  proxy.ProxyInit()
 }
