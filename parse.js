@@ -74,7 +74,7 @@ exports.Parse = function(dataArray) {
   for(let txt of texts) {
     let file = textDir + txt
     if (fs.statSync(file).isFile()) {
-      console.log(file);
+      //console.log(file);
       let body = fs.readFileSync(file)
       //let body = fs.readFileSync("text/" + "200601" + ".txt")
       //let body = fs.readFileSync("text/" + "201018" + ".txt")
@@ -97,17 +97,17 @@ exports.Parse = function(dataArray) {
 
         const firstNumber = subStrings[startPos].match(/\d+/)
         if (firstNumber.index > subStrings[startPos].indexOf(arrStringNames[0][0])) {
-          console.log(arrStringNames[0][0] + "1 " + firstNumber);
+          //console.log(arrStringNames[0][0] + "1 " + firstNumber);
           newObject[paramNames[0]] = firstNumber.toString();
         }
         else {    
           const numbArr = subStrings[startPos].match(/\d+/g)
           if (numbArr.length > 1) {
-            console.log(arrStringNames[0][0] + "2 " + numbArr[1]);          
+            //console.log(arrStringNames[0][0] + "2 " + numbArr[1]);          
             newObject[paramNames[0]] = numbArr[1].toString();
           }
           else {
-            console.log(arrStringNames[0][0] + "3 " + numbArr[0]);
+            //console.log(arrStringNames[0][0] + "3 " + numbArr[0]);
             newObject[paramNames[0]] = numbArr[0].toString();
           }
         }  

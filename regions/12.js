@@ -48,7 +48,7 @@ exports.DownloadAllPages = function() {
   }
 }*/
 
-exports.DownloadPage = function(startDate) {
+exports.DownloadPage = async function(startDate) {
   proxy.ProxyInit()
   
   const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];  
@@ -58,7 +58,7 @@ exports.DownloadPage = function(startDate) {
 
   let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
 
-  request(URL, function (err, res, body) {
+  await request(URL, async function (err, res, body) {
     if (err) throw err;
     
     let cheerio = require('cheerio');
@@ -76,12 +76,12 @@ exports.DownloadPage = function(startDate) {
       console.log(link)           
     })
     if (link)
-    request(link, function (err, res, body) {
-      if (err) throw err;
-      //console.log(body);      
-      let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
-      fs.writeFileSync("pages/12/" + stringDate + ".html", body)
-    });  
+      await request(link, function (err, res, body) {
+        if (err) throw err;
+        //console.log(body);      
+        let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
+        fs.writeFileSync("pages/12/" + stringDate + ".html", body)
+      });  
   });
 }
 
