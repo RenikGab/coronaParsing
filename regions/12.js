@@ -48,6 +48,7 @@ exports.DownloadAllPages = function() {
   }
 }*/
 
+
 exports.DownloadPage = async function(startDate) {
   proxy.ProxyInit()
   
@@ -59,7 +60,11 @@ exports.DownloadPage = async function(startDate) {
   let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
 
   await request(URL, async function (err, res, body) {
-    if (err) throw err;
+    console.log("request callback")    
+    if (err) { 
+      throw err
+    }
+
     
     let cheerio = require('cheerio');
     let $ = cheerio.load(body);
@@ -76,14 +81,19 @@ exports.DownloadPage = async function(startDate) {
       console.log(link)           
     })
     if (link)
+    {      
       await request(link, function (err, res, body) {
         if (err) throw err;
         //console.log(body);      
         let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
         fs.writeFileSync("pages/12/" + stringDate + ".html", body)
-      });  
+      }); 
+    }
   });
+
 }
+
+
 
 exports.GetLastSavedFileDate = function(Dir) {
   let pages = fs.readdirSync(Dir);

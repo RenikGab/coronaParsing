@@ -3,13 +3,20 @@ let reg12 = require('./regions/12')
 let down43 = require('./regions/download/43')
 let parse43 = require('./regions/parse/43')
 
+let Sync = require('sync');
+
 //let startDate = new Date("2020-11-03")
 //date.toDateString('ru', { month: 'long' })
 //console.log(date.toLocaleDateString('ru', { month: 'long' }))
 
 let startDate = reg12.GetLastSavedFileDate("pages/12/")
 console.log("startDate pages " + startDate)
-reg12.DownloadPage(startDate)
+
+Sync(function(){
+  console.log("DownloadPage start")
+  reg12.DownloadPage(startDate)
+  console.log("DownloadPage middle")
+})
 console.log("DownloadPage end ------------------------------------------------------------------------------------------")
 //startDate = GetLastSavedFileDate("text/12/")
 //console.log("startDate text " + startDate)
@@ -35,6 +42,7 @@ down43.DownloadAllPages()
 console.log("down43.DownloadAllPages() end ------------------------------------------------------------------------------------------")
 parse43.ParseAllPages()
 console.log("parse43.ParseAllPages() end ------------------------------------------------------------------------------------------")
+
 
 
 /*
