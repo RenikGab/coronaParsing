@@ -3,8 +3,11 @@ let sprintf = require('sprintf-js').sprintf
 let fs = require('fs')
 let path = require('path')
 let moment = require('moment')
+let Sync = require('sync');
+var syncRequest = require('sync-request');
 
 let proxy = require('../proxy')
+
 
 exports.DownloadAllPages = function() {
   proxy.ProxyInit()
@@ -59,40 +62,47 @@ exports.DownloadPage = async function(startDate) {
 
   let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
 
-  await request(URL, async function (err, res, body) {
-    console.log("request callback")    
-    if (err) { 
-      throw err
-    }
+  //Sync(function(){
+ 
+    //request(URL, function (err, res, body) {
+      /*if (err) { 
+        throw err
+      }*/
 
+      let res = syncRequest("GET", URL)
+      console.log("request callback")    
+      let body = res.getBody()
+
+      
+      let cheerio = require('cheerio');
+      let $ = cheerio.load(body);
+      //let news = $('a:contains("Коронавирус: ситуация на")')
+      let ss = 'a:contains(' + stringStart + stringDate + ')'
+      let news = $(ss)
+      let link = null
+      news.each(function() {
+        link = $(this).get(0).attribs.href
+        base = path.basename(link, path.extname(link)).slice(0,-2)
+        let momentDate = moment(base, "YYMMDD")
+        let date = momentDate.toDate()
+        console.log("date " + date)
+        console.log(link)           
+      })
+      if (link)
+      {      
+        //request(link, function (err, res, body) {
+          //if (err) throw err;
+          let res = syncRequest("GET", link)
+          console.log("request link callback")
+          let body = res.getBody()
     
-    let cheerio = require('cheerio');
-    let $ = cheerio.load(body);
-    //let news = $('a:contains("Коронавирус: ситуация на")')
-    let ss = 'a:contains(' + stringStart + stringDate + ')'
-    let news = $(ss)
-    let link = null
-    news.each(function() {
-      link = $(this).get(0).attribs.href
-      base = path.basename(link, path.extname(link)).slice(0,-2)
-      let momentDate = moment(base, "YYMMDD")
-      let date = momentDate.toDate()
-      console.log("date " + date)
-      console.log(link)           
-    })
-    if (link)
-    {      
-      await request(link, function (err, res, body) {
-        if (err) throw err;
-        //console.log(body);      
-        let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
-        fs.writeFileSync("pages/12/" + stringDate + ".html", body)
-      }); 
-    }
-  });
-
+          //console.log(body);      
+          let stringDate = sprintf("%02d%02d%02d", startDate.getFullYear()-2000, startDate.getMonth()+1, startDate.getDate())
+          fs.writeFileSync("pages/12/" + stringDate + ".html", body)
+        //}); 
+      }
+    //});
 }
-
 
 
 exports.GetLastSavedFileDate = function(Dir) {

@@ -19,6 +19,7 @@
     "request": "^2.88.2",
     "sprintf-js": "^1.1.2",
     "sync": "^0.2.5",
+    "sync-request": "^6.1.0",
     "util": "^0.12.3"
   }
 }
