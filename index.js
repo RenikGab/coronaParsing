@@ -3,8 +3,6 @@ let reg12 = require('./regions/12')
 let down43 = require('./regions/download/43')
 let parse43 = require('./regions/parse/43')
 
-
-
 //let startDate = new Date("2020-11-03")
 //date.toDateString('ru', { month: 'long' })
 //console.log(date.toLocaleDateString('ru', { month: 'long' }))
