@@ -61,6 +61,7 @@ exports.DownloadPage = async function(startDate) {
   console.log(stringStart + stringDate)
 
   let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
+  //let URL = 'http://mari-el.gov.ru/minzdrav/Pages/allnews.aspx';
 
   //Sync(function(){
  
@@ -79,21 +80,25 @@ exports.DownloadPage = async function(startDate) {
       //let news = $('a:contains("Коронавирус: ситуация на")')
       let ss = 'a:contains(' + stringStart + stringDate + ')'
       let news = $(ss)
+      let prob_link = null
       let link = null
       news.each(function() {
-        link = $(this).get(0).attribs.href
-        base = path.basename(link, path.extname(link)).slice(0,-2)
+        prob_link = $(this).get(0).attribs.href
+        base = path.basename(prob_link, path.extname(prob_link)).slice(0,-2)
         let momentDate = moment(base, "YYMMDD")
         let date = momentDate.toDate()
         console.log("date " + date)
-        console.log(link)           
+        console.log("year " + date.getFullYear() + " " + startDate.getFullYear())
+        console.log(prob_link)
+        if (date.getFullYear() === startDate.getFullYear())
+          link = prob_link
       })
       if (link)
       {      
         //request(link, function (err, res, body) {
           //if (err) throw err;
           let res = syncRequest("GET", link)
-          console.log("request link callback")
+          console.log("request link callback", link)
           let body = res.getBody()
     
           //console.log(body);      

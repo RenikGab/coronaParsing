@@ -33,15 +33,13 @@ text.ConvertToTxtFile(dataArray)
 //down43.DownloadAllPages(501)
 //down43.DownloadNewPages()
 //down43.DownloadAllPages(21)
-
+/*
 console.log("down43.DownloadAllPages() start ------------------------------------------------------------------------------------------")
 down43.DownloadAllPages()
 console.log("down43.DownloadAllPages() end ------------------------------------------------------------------------------------------")
 parse43.ParseAllPages()
 console.log("parse43.ParseAllPages() end ------------------------------------------------------------------------------------------")
-
-
-
+*/
 /*
 async function f() {
 
