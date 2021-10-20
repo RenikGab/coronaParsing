@@ -60,8 +60,8 @@ exports.DownloadPage = async function(startDate) {
   let stringStart = "Коронавирус: ситуация на "   
   console.log(stringStart + stringDate)
 
-  let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
-  //let URL = 'http://mari-el.gov.ru/minzdrav/Pages/allnews.aspx';
+  //let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
+  let URL = 'http://mari-el.gov.ru/minzdrav/Pages/allnews.aspx';
 
   //Sync(function(){
  
