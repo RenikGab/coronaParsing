@@ -62,6 +62,7 @@ exports.DownloadPage = async function(startDate) {
 
   let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
   //let URL = 'http://mari-el.gov.ru/minzdrav/Pages/allnews.aspx';
+  //https://yandex.ru/search/?text=Коронавирус%3A+ситуация+на+23+октября
 
   //Sync(function(){
  
