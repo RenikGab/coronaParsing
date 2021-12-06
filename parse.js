@@ -72,6 +72,13 @@ exports.Parse = function(dataArray) {
   let textDir = "text/12/"
   let texts = fs.readdirSync(textDir);
   for(let txt of texts) {
+
+    
+    if (txt == "211205.txt") {
+      console.log("211206.txt");
+    }
+
+
     let file = textDir + txt
     if (fs.statSync(file).isFile()) {
       //console.log(file);
