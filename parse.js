@@ -74,10 +74,10 @@ exports.Parse = function(dataArray) {
   for(let txt of texts) {
 
     
-    if (txt == "211205.txt") {
+/*    if (txt == "211205.txt") {
       console.log("211206.txt");
     }
-
+*/
 
     let file = textDir + txt
     if (fs.statSync(file).isFile()) {

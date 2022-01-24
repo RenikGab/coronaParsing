@@ -15,7 +15,7 @@ exports.DownloadAllPages = function() {
   let date = new Date("2020-10-24")
   let endDate = new Date()
   let today = new Date()
-  let URL_start = 'http://mari-el.gov.ru/minzdrav/Pages/';
+  let URL_start = 'http://old.mari-el.gov.ru/minzdrav/Pages/';
   let URL_finish = '_1.aspx';
   for ( ; date < endDate; date.setDate(date.getDate() + 1)) {
     let stringDate = sprintf("%02d%02d%02d", date.getFullYear()-2000, date.getMonth()+1, date.getDate())
@@ -60,7 +60,7 @@ exports.DownloadPage = async function(startDate) {
   let stringStart = "Коронавирус: ситуация на "   
   console.log(stringStart + stringDate)
 
-  let URL = 'http://mari-el.gov.ru/minzdrav/Pages/main.aspx';
+  let URL = 'http://old.mari-el.gov.ru/minzdrav/Pages/main.aspx';
   //let URL = 'http://mari-el.gov.ru/minzdrav/Pages/allnews.aspx';
   //https://yandex.ru/search/?text=Коронавирус%3A+ситуация+на+23+октября
 
@@ -86,7 +86,10 @@ exports.DownloadPage = async function(startDate) {
       news.each(function() {
         prob_link = $(this).get(0).attribs.href
         base = path.basename(prob_link, path.extname(prob_link)).slice(0,-2)
+	console.log("prob_link ", prob_link)
+	console.log("base ", base)
         let momentDate = moment(base, "YYMMDD")
+	//let momentDate = moment(base, "DDMMYY")
         let date = momentDate.toDate()
         console.log("date " + date)
         console.log("year " + date.getFullYear() + " " + startDate.getFullYear())
