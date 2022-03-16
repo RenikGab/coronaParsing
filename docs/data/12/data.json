@@ -8272,5 +8272,70 @@
   "IVL": "2",
   "minus": "24",
   "plus": "12"
+ },
+ {
+  "date": "220312",
+  "total": "162",
+  "pnevmo": "146",
+  "corona": "99",
+  "hard": "23",
+  "middle": "139",
+  "light": "0",
+  "O2": "71",
+  "IVL": "2",
+  "minus": "24",
+  "plus": "12"
+ },
+ {
+  "date": "220313",
+  "total": "135",
+  "pnevmo": "123",
+  "corona": "76",
+  "hard": "18",
+  "middle": "117",
+  "light": "0",
+  "O2": "64",
+  "IVL": "2",
+  "minus": "11",
+  "plus": "7"
+ },
+ {
+  "date": "220314",
+  "total": "134",
+  "pnevmo": "122",
+  "corona": "77",
+  "hard": "18",
+  "middle": "116",
+  "light": "0",
+  "O2": "59",
+  "IVL": "2",
+  "minus": "5",
+  "plus": "4"
+ },
+ {
+  "date": "220315",
+  "total": "122",
+  "pnevmo": "110",
+  "corona": "65",
+  "hard": "11",
+  "middle": "111",
+  "light": "0",
+  "O2": "54",
+  "IVL": "2",
+  "minus": "26",
+  "plus": "14"
+ },
+ {
+  "date": "220316",
+  "total": "119",
+  "pnevmo": "109",
+  "corona": "61",
+  "hard": "16",
+  "middle": "103",
+  "light": "0",
+  "O2": "54",
+  "IVL": "2",
+  "minus": "14",
+  "plus": "11"
  }
 ]
