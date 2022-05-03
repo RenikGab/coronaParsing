@@ -747,3 +747,4 @@ date	total	pnevmo	corona	hard	middle	O2	IVL	plus	minus
 220430	53	50	16	5	48	15	1	4	7	
 220501	59	56	18	7	52	14	2			
 220502	60	57	18	8	52	15	2	5	4	
+220503	60	57	18	9	51	15	2	6	6	
