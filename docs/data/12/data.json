@@ -9280,5 +9280,30 @@
   "IVL": "0",
   "minus": "6",
   "plus": "1"
+ },
+ {
+  "date": "220529",
+  "total": "44",
+  "pnevmo": "44",
+  "corona": "7",
+  "hard": "7",
+  "middle": "37",
+  "light": "0",
+  "O2": "14",
+  "IVL": "0",
+  "minus": "4",
+  "plus": "3"
+ },
+ {
+  "date": "220530",
+  "total": "43",
+  "pnevmo": "43",
+  "corona": "7",
+  "hard": "7",
+  "middle": "36",
+  "light": "0",
+  "O2": "14",
+  "IVL": "0",
+  "minus": "1"
  }
 ]
